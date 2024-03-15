@@ -3,7 +3,6 @@
 let fileReader = require('../index.js');
 
 jest.mock('fs');
-
 describe('File Reader Module', () => {
   it('readFile returns an error when given a bad file', () => {
     let file = 'bad.txt';
